@@ -1,0 +1,117 @@
+/*
+ * analysis.c
+ *
+ *  Created on: Feb 20, 2023
+ *      Author: Ty Freeman
+ */
+
+
+/* System Includes */
+#include "FreeRTOS.h"
+#include "queue.h"
+#include "task.h"
+#include "stm32l4xx_hal.h"
+
+/* Lib Includes */
+#include <stdio.h>
+#include <stdlib.h>
+#include <transform.h>
+#include "string.h"
+#include "math.h"
+
+/* User-Created Includes */
+#include "global.h"
+#include "fft.h"
+
+#define TOREAL 3.3/4096
+#define TODIG  4096/3.3
+
+extern QueueHandle_t buffer_mbx;
+extern QueueHandle_t stats_mbx;
+
+/* Data Transmission Failure Flags */
+int trans_tx_fail = 0;
+int trans_rx_fail = 0;
+
+/* Program Control Flags */
+_Bool ansy_flg = 0;
+_Bool sigDone_flg = 0;
+_Bool txmDone_flg = 0;
+
+/* Program Ending Variables */
+float tm2full;
+unsigned int quiet_cnt;
+int num_emptyBuf;
+
+int txm_pkgs = 0;
+
+void trans_Task(void * pvParameters)
+{
+	TickType_t lastWake = 0;
+	TickType_t Period = pdMS_TO_TICKS(20);
+
+	uint16_t *rec = NULL;
+
+	stats_t res_fft;
+
+	tm2full = (float) SAMPLES/FS; // Time it takes to fill one buffer worth of samples
+	quiet_cnt = (int) floor(3/tm2full); // 3 seconds of silence signals end of incoming signal
+	num_emptyBuf = quiet_cnt;
+
+	while(1)
+	{
+		if(pkgRdy_flg)
+		{
+			res_fft.pkg_num = pkg_cnt; // Find current package number
+			rec = (uint16_t *)malloc(SAMPLES*sizeof(uint16_t)); // Create reception buffer
+
+			if(xQueueReceive(buffer_mbx, rec, 0) != pdTRUE) // Receive data buffer from mailbox
+			{
+				trans_rx_fail++;
+			}
+			else
+			{
+				txm_pkgs++;
+				pkgRdy_flg = 0; // Reset pkgRdy flag
+
+				for(int i = 0; i < SAMPLES; i++)
+				{
+					float hann = 0.5-0.5*cos(2*PI*i/SAMPLES); // Calculate Hanning window coefficient
+					res_fft.res_buf[i] = (float)rec[i]*hann*TOREAL + 0*I; // Apply Hanning window and convert to complex number
+				}
+
+				free(rec); // Free temporary transfer buffer
+				FFT(&res_fft); // Run FFT
+
+				float perEmpty = (float) res_fft.zCnt/SAMPLES;
+				if(perEmpty >= 0.95) // If 85% of buffer is zero, consider it empty
+				{
+					quiet_cnt--; // Keep track of empty captures
+
+					if(quiet_cnt == 0)
+					{
+						sigDone_flg = 1; // Signal finished, adc no longer needed
+					}
+				}
+				else // Reset quiet count
+					quiet_cnt = num_emptyBuf; // Reset quiet_cnt
+
+				if(xQueueSend(stats_mbx, &res_fft, 0)) txm_pkgs++;
+
+				else trans_tx_fail++;
+
+
+				if(adcDone_flg && uxQueueMessagesWaiting(buffer_mbx) == 0)
+				{
+					txmDone_flg = 1;
+					vTaskSuspend(NULL); // Suspend if ADC done and no more data to process
+				}
+			}
+
+		}
+
+
+		lastWake = xTaskGetTickCount();
+		vTaskDelayUntil(&lastWake, Period);
+	}
+}

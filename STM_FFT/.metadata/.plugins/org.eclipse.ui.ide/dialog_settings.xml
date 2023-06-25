@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.st.stm32cube.common.feature.mx.stinsider:6.2.1.202103241236"/>
+		<item value="com.st.stm32cube.common.feature.mx:6.2.1.202103241236"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:9.11.1.202005131504"/>
+		<item value="org.eclipse.cdt.gdb:9.11.1.202004012021"/>
+		<item value="org.eclipse.cdt.native:9.11.1.202005051837"/>
+		<item value="org.eclipse.cdt.platform:9.11.1.202006011430"/>
+		<item value="org.eclipse.cdt:9.11.1.202006011430"/>
+		<item value="org.eclipse.emf.common:2.19.0.v20200324-0932"/>
+		<item value="org.eclipse.emf.ecore:2.22.0.v20200519-1135"/>
+		<item value="org.eclipse.epp.mpc:1.10.0.v20220502-0731"/>
+		<item value="org.eclipse.help:2.3.200.v20200604-0540"/>
+		<item value="org.eclipse.platform:4.16.0.v20200604-0951"/>
+		<item value="org.eclipse.rcp:4.16.0.v20200604-0951"/>
+		<item value="org.eclipse.remote.console:3.0.2.202109011318"/>
+		<item value="org.eclipse.rse.core:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse.dstore:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse.ftp:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse.local:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse.ssh:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse.telnet:4.5.100.202002061858"/>
+		<item value="org.eclipse.rse:4.5.100.202002061858"/>
+		<item value="org.eclipse.tm.terminal.control.feature:4.6.1.202005200056"/>
+		<item value="org.eclipse.tm.terminal.feature:11.1.0.202212091724"/>
+		<item value="org.eclipse.tm.terminal.view.feature:10.2.0.202103012351"/>
+		<item value="org.eclipse.tm.terminal.view.rse.feature:4.3.0.201706140544"/>
+		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Ty Freeman\Documents\Classes\Grad_Paper\tkf1604_grad_ppr\STM_FFT\ProjectG"/>
+			<item value="C:\Users\Ty Freeman\Documents\Classes\Grad_Paper\tkf1604_grad_ppr\STM_FFT"/>
+			<item value="C:\Users\Ty Freeman\Documents\Classes\Spring 2023\Grad_Ppr\tkf1604_grad_ppr\STM_FFT"/>
+			<item value="C:\Users\Ty Freeman\Documents\Classes\Spring 2023\Grad_Ppr\tkf1604_grad_ppr\STM_FFT\embed_fft"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="667"/>
+			<item key="DIALOG_Y_ORIGIN" value="187"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-27|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

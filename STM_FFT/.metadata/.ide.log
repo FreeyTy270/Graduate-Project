@@ -1,0 +1,381 @@
+2023-01-19 08:45:38,479 [INFO] Activator:177 - 
+
+
+2023-01-19 08:45:38,479 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-19 08:46:03,717 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-19 08:46:03,718 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-19 08:46:03,721 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-19 08:46:46,934 [INFO] Activator:177 - 
+
+
+2023-01-19 08:46:46,934 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-19 08:47:13,845 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-19 08:47:13,845 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-19 08:47:13,850 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-24 16:34:19,509 [INFO] Activator:177 - 
+
+
+2023-01-24 16:34:19,509 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-24 16:34:57,563 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-24 16:34:57,564 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-24 16:34:57,566 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-25 13:27:15,298 [INFO] Activator:179 - 
+
+
+2023-01-25 13:27:15,298 [INFO] Activator:180 - !SESSION log4j initialized
+2023-01-25 13:27:43,072 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-25 13:27:43,072 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-25 13:27:43,082 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-31 08:14:51,902 [INFO] Activator:179 - 
+
+
+2023-01-31 08:14:51,902 [INFO] Activator:180 - !SESSION log4j initialized
+2023-01-31 08:15:20,269 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-31 08:15:20,269 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-31 08:15:20,273 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-31 17:01:44,628 [INFO] Activator:179 - 
+
+
+2023-01-31 17:01:44,628 [INFO] Activator:180 - !SESSION log4j initialized
+2023-01-31 17:02:13,594 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-31 17:02:13,596 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-31 17:02:13,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-01 13:48:56,446 [INFO] Activator:179 - 
+
+
+2023-02-01 13:48:56,449 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-01 13:49:26,469 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-01 13:49:26,473 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-01 13:49:26,474 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-01 14:20:14,556 [INFO] Activator:179 - 
+
+
+2023-02-01 14:20:14,559 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-01 14:20:42,385 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-01 14:20:42,386 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-01 14:20:42,387 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-01 14:22:32,430 [INFO] Activator:179 - 
+
+
+2023-02-01 14:22:32,433 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-01 14:23:00,643 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-01 14:23:00,650 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-01 14:23:00,651 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 08:45:33,114 [INFO] Activator:179 - 
+
+
+2023-02-02 08:45:33,117 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 08:46:12,698 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 08:46:12,699 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 08:46:12,701 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 08:48:33,503 [INFO] Activator:179 - 
+
+
+2023-02-02 08:48:33,507 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 08:49:13,850 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 08:49:13,851 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 08:49:13,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 09:07:17,558 [INFO] Activator:179 - 
+
+
+2023-02-02 09:07:17,566 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 09:07:53,865 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 09:07:53,866 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 09:07:53,867 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 09:21:14,448 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-02-02 09:21:14,470 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-02-02 09:21:14,471 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-02-02 09:21:14,473 [WARN] ApiDb:258 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-02-02 09:21:16,062 [INFO] ApiDb:249 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,063 [INFO] DbMcusAds:124 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,070 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-02 09:21:16,176 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-02-02 09:21:16,287 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-02-02 09:21:16,289 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-02-02 09:21:16,289 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-02-02 09:21:16,290 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,290 [INFO] ApiDb:249 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,290 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,291 [INFO] DbMcusAds:124 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,291 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,292 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,292 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-02 09:21:16,398 [INFO] MainPanel:252 - HeapMemory: 547356672
+2023-02-02 09:21:16,547 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/mcu/
+2023-02-02 09:21:16,548 [INFO] ApiDb:273 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/boardmanager/
+2023-02-02 09:21:16,548 [INFO] ApiDb:260 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839\\db\/plugins/mcufinder/images/
+2023-02-02 09:21:16,548 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,548 [INFO] ApiDb:249 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,548 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,548 [INFO] DbMcusAds:124 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/
+2023-02-02 09:21:16,549 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,549 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder/ => C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder
+2023-02-02 09:21:16,549 [INFO] CrossReferenceDbSqlite:202 - Set database path to: C:\Users\Ty Freeman\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-02-02 09:21:16,576 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-02-02 09:21:16,578 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-02-02 09:21:16,580 [INFO] PluginManage:307 - Check plugin analytics
+2023-02-02 09:21:16,815 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: STM32CubeMX.6.3.0,STM32CubeMX.6.4.0
+2023-02-02 09:21:16,815 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-02-02 09:21:16,816 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-02-02 09:21:16,825 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-02-02 09:21:16,825 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-02-02 09:21:16,834 [INFO] CADModel:104 - Init CAD model plugin
+2023-02-02 09:21:16,834 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-02-02 09:21:16,834 [INFO] PluginManage:307 - Check plugin clock
+2023-02-02 09:21:16,848 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-02-02 09:21:16,850 [INFO] PluginManage:307 - Check plugin ddr
+2023-02-02 09:21:16,853 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-02-02 09:21:16,853 [INFO] PluginManage:307 - Check plugin filemanager
+2023-02-02 09:21:17,026 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-02-02 09:21:17,026 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-02-02 09:21:17,035 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-02-02 09:21:17,035 [INFO] PluginManage:307 - Check plugin lpbam
+2023-02-02 09:21:17,045 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-02-02 09:21:17,045 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-02-02 09:21:17,054 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-02-02 09:21:17,055 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-02-02 09:21:17,091 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-02-02 09:21:17,092 [INFO] PluginManage:307 - Check plugin power
+2023-02-02 09:21:17,105 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-02-02 09:21:17,106 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-02-02 09:21:17,119 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-02-02 09:21:17,119 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-02-02 09:21:17,266 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-02-02 09:21:17,266 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-02-02 09:21:17,266 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-02-02 09:21:17,267 [INFO] PluginManage:307 - Check plugin tools
+2023-02-02 09:21:17,269 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-02-02 09:21:17,270 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-02-02 09:21:17,270 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-02-02 09:21:17,506 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-02-02 09:21:17,506 [INFO] PluginManage:307 - Check plugin updater
+2023-02-02 09:21:17,523 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-02-02 09:21:17,524 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-02-02 09:21:17,880 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-02-02 09:21:17,985 [INFO] CADModel:164 - CPN selected for project level
+2023-02-02 09:21:17,986 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-02 09:21:18,011 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,011 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-02-02 09:21:18,015 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,016 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-02-02 09:21:18,019 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,019 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-02-02 09:21:18,022 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,022 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-02-02 09:21:18,026 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,026 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-02-02 09:21:18,030 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,031 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-02-02 09:21:18,037 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,038 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-02-02 09:21:18,041 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,041 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-02-02 09:21:18,043 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,043 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-02-02 09:21:18,047 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,048 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-02-02 09:21:18,054 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,054 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-02-02 09:21:18,056 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,056 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-02-02 09:21:18,059 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,059 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-02-02 09:21:18,064 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,064 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-02-02 09:21:18,069 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,069 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-02-02 09:21:18,072 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,073 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-02-02 09:21:18,075 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,075 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-02-02 09:21:18,078 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,078 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-02-02 09:21:18,080 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,082 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-02-02 09:21:18,085 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,085 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-02-02 09:21:18,091 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,092 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-02-02 09:21:18,094 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,094 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-02-02 09:21:18,097 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,097 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-02-02 09:21:18,103 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,104 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-02-02 09:21:18,107 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,108 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-02-02 09:21:18,112 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,112 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-02-02 09:21:18,117 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,117 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-02-02 09:21:18,120 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,120 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-02-02 09:21:18,128 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,129 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-02-02 09:21:18,132 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,132 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-02-02 09:21:18,137 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,137 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-02-02 09:21:18,141 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,141 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-02-02 09:21:18,144 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,144 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-02-02 09:21:18,148 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,148 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-02-02 09:21:18,150 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,152 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-02-02 09:21:18,155 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,155 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-02-02 09:21:18,157 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,157 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-02-02 09:21:18,160 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,160 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-02-02 09:21:18,161 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,162 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-02-02 09:21:18,163 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,163 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-02-02 09:21:18,166 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,166 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-02-02 09:21:18,169 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-02-02 09:21:18,169 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-02-02 09:21:18,296 [INFO] CADModel:164 - CPN selected for project level
+2023-02-02 09:21:18,296 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-02 09:21:18,296 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,297 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-02-02 09:21:18,469 [INFO] CADModel:164 - CPN selected for project level
+2023-02-02 09:21:18,470 [INFO] CADModel:113 - Register for checkConnection events
+2023-02-02 09:21:18,470 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,470 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-02-02 09:21:18,472 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,608 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,615 [INFO] DbMcusAds:52 - JSON generation date=Thu Sep 30 02:55:09 EDT 2021 (1632984909247)
+2023-02-02 09:21:18,616 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,671 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-02-02 09:21:18,797 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,798 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,799 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,799 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-02-02 09:21:18,799 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-02-02 09:21:18,847 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-02-02 09:21:18,849 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-02-02 09:21:18,868 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-02-02 09:21:18,929 [INFO] MainUpdater:518 - Copy updater definitions from MX database
+2023-02-02 09:21:19,030 [INFO] MainUpdater:2800 - connection check result : 10
+2023-02-02 09:21:19,030 [INFO] MainUpdater:3494 - Updater definition file requires update
+2023-02-02 09:21:19,031 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-02-02 09:21:19,032 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-02-02 09:21:19,077 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-02-02 09:21:19,125 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-02-02 09:21:19,126 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-02-02 09:21:19,492 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-02-02 09:21:19,547 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-02-02 09:21:20,050 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2023-02-02 09:21:20,287 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:20,288 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2023-02-02 09:21:20,317 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2023-02-02 09:21:20,742 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2023-02-02 09:21:21,425 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-02-02 09:21:21,448 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-02-02 09:21:21,455 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-02-02 09:21:21,456 [INFO] PopulateThirdPartyThread:64 - Ending populate Thread
+2023-02-02 09:21:21,458 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-02-02 09:21:21,458 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-02-02 09:21:21,458 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-02-02 09:21:21,458 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-02-02 09:21:21,552 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-02 09:21:21,716 [INFO] MainUpdater:2800 - connection check result : 10
+2023-02-02 09:21:21,998 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-02 09:21:23,301 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:23,301 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [2/15]
+2023-02-02 09:21:26,312 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:26,312 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [3/15]
+2023-02-02 09:21:29,315 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:29,315 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [4/15]
+2023-02-02 09:21:30,331 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-02-02 09:21:30,393 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-02-02 09:21:30,393 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-02-02 09:21:30,657 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-02-02 09:21:30,684 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-02-02 09:21:30,710 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-02-02 09:21:30,854 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-02 09:21:32,320 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:32,320 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [5/15]
+2023-02-02 09:21:35,337 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:35,337 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [6/15]
+2023-02-02 09:21:35,344 [INFO] ServerAccessManage:474 - Download File stm32cube_fw_h7_v1110.zip
+2023-02-02 09:21:38,347 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:38,347 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [7/15]
+2023-02-02 09:21:41,347 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:41,347 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [8/15]
+2023-02-02 09:21:44,350 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:44,350 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [9/15]
+2023-02-02 09:21:47,361 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:47,361 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [10/15]
+2023-02-02 09:21:50,363 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:50,363 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [11/15]
+2023-02-02 09:21:53,370 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:53,370 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [12/15]
+2023-02-02 09:21:56,371 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:56,371 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [13/15]
+2023-02-02 09:21:59,377 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:21:59,377 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [14/15]
+2023-02-02 09:22:02,385 [WARN] MainUpdater:1186 - Updater busy. Cannot search thirdparties
+2023-02-02 09:22:02,385 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [15/15]
+2023-02-02 09:22:02,385 [ERROR] IntegrityCheckThread:128 - Cannot retrieve database content from updater: error -1
+2023-02-02 09:22:02,385 [INFO] ThirdParty:947 - Integrity check success = false
+2023-02-02 09:22:02,385 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-02-02 09:22:02,385 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-02-02 09:23:36,150 [INFO] AnalyticsPlugin:358 - Accepted License(s) without tracking enabled: [FW.H7.1.11.0]
+2023-02-02 09:23:36,150 [INFO] FileExtend:239 - Unzip File : stm32cube_fw_h7_v1110.zip
+2023-02-02 09:23:36,150 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-02-02 09:26:41,524 [INFO] LoadServerPackagesThread:190 - End of LoadServerPackages Thread
+2023-02-02 09:26:41,715 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-02 09:26:44,216 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-02-02 09:26:44,321 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-02-02 09:26:44,321 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-02-02 09:26:46,781 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-02-02 09:26:46,835 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-02-02 09:26:46,907 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-02-02 09:26:47,085 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-02-02 09:39:31,630 [INFO] Activator:179 - 
+
+
+2023-02-02 09:39:31,636 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 09:40:09,214 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 09:40:09,216 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 09:40:09,218 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 09:46:10,799 [INFO] Activator:179 - 
+
+
+2023-02-02 09:46:10,803 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 09:46:50,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 09:46:50,099 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 09:46:50,100 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 09:48:23,992 [INFO] Activator:179 - 
+
+
+2023-02-02 09:48:23,996 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 09:49:01,995 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 09:49:01,996 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 09:49:01,997 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 09:51:25,089 [INFO] Activator:179 - 
+
+
+2023-02-02 09:51:25,094 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 09:52:02,284 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 09:52:02,284 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 09:52:02,285 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-02 10:02:11,118 [INFO] Activator:179 - 
+
+
+2023-02-02 10:02:11,123 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-02 10:02:52,523 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-02 10:02:52,524 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-02 10:02:52,526 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-02-07 17:36:30,054 [INFO] Activator:179 - 
+
+
+2023-02-07 17:36:30,059 [INFO] Activator:180 - !SESSION log4j initialized
+2023-02-07 17:37:00,501 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-02-07 17:37:00,501 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-02-07 17:37:00,504 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

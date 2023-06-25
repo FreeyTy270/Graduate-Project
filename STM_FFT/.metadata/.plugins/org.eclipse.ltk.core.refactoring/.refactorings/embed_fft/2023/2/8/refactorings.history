@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;embed_fft/Core/Src/fft.c&apos; to &apos;fft_classic.c&apos;" description="Rename resource &apos;fft.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/fft.c" name="fft_classic.c" stamp="1676926555184" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;embed_fft/Core/Inc/fft.h&apos; to &apos;fft_classic.h&apos;" description="Rename resource &apos;fft.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/fft.h" name="fft_classic.h" stamp="1676926658205" updateReferences="true"/>
+</session>

@@ -1,0 +1,111 @@
+/*
+ * fft.c
+ *
+ *  Created on: Nov 7, 2022
+ *      Author: Ty Freeman
+ */
+
+/* System Includes */
+#include <fft.h>
+#include "FreeRTOS.h"
+#include "task.h"
+#include "stm32l4xx_hal.h"
+
+/* lib Includes */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "math.h"
+
+/* User-Created Includes */
+
+float complex twexp = 2*PI*I/SAMPLES; // Twiddle exponent e^(2PIj/N)
+
+void FFT(stats_t *results)
+{
+	int a = SMP_2; // Dual-Node distance factor
+	int m = 0; // Twiddle power
+
+	float complex x  = 0; // Primary summation term
+	float complex xp = 0; // Secondary summation term
+
+	results->mult_cnt = 0; // Reset operations counter
+	results->add_cnt = 0;
+
+	int stages = log_2(SAMPLES); // Calculate number of stages necessary
+
+	for(int j = 1; j <= stages; j++)
+	{
+		for(int k = 0; k < SAMPLES; k++)
+		{
+			if(!(k & a)) // Remove redundant computations
+			{
+				m = bit_reverse(stages, k >> (stages - j)); // Calculate twiddle power
+				x = results->res_buf[k];
+				xp = cexp(twexp*m)*results->res_buf[k+a];
+
+				results->res_buf[k] = x + xp;
+				results->res_buf[k + a] = x - xp;
+				results->mult_cnt += 1; // One complex multiplication
+				results->add_cnt += 2; // Two complex additions
+			}
+		}
+
+		a >>= 1; // Change Dual-Node distance
+	}
+
+	/* In Place Array Re-Indexing */
+	for(int i = 0; i < SAMPLES; i++)
+	{
+		int p = bit_reverse(stages, i);
+
+		if(i < p) // Only swap elements once
+		{
+			float complex n = results->res_buf[i];
+			results->res_buf[i] = results->res_buf[p];
+			results->res_buf[p] = n;
+		}
+
+		if(creal(results->res_buf[i]) == 0)
+			results->zCnt++;
+	}
+}
+
+/**
+  * @brief Bit reversal algorithm
+  * @param sz Number of bits in number
+  * @param index Current index value to be reversed
+  * @retval int Bit reversed index
+  */
+int bit_reverse(int sz, int index)
+{
+	int p = 0;
+
+	for(int i = 0; i <= sz; i++)
+	{
+		if(index & (1 << (sz - i)))
+		{
+			p |= 1 << (i - 1);
+		}
+	}
+
+	return p;
+}
+
+/**
+  * @brief Base-2 logarithm
+  * @param N Number
+  * @retval int Number of bits in N
+  */
+int log_2(unsigned int N)
+{
+	int pow = 0;
+
+	while(N)
+	{
+		N >>= 1;
+		pow++;
+	}
+
+	return pow - 1;
+}

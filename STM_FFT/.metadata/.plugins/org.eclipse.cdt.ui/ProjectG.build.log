@@ -1,0 +1,314 @@
+08:46:46 **** Build of configuration Debug for project ProjectG ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/dac.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dac.d" -MT"Core/Src/dac.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dac.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/signal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/signal.d" -MT"Core/Src/signal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/signal.o"
+arm-none-eabi-gcc "../Core/Src/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/uart.d" -MT"Core/Src/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/uart.o"
+In file included from ../Core/Src/signal.c:8:
+../Core/Inc/signal.h:13:12: error: unknown type name 'sig_t'
+   13 | void mkSig(sig_t *currSig);
+      |            ^~~~~
+../Core/Inc/signal.h:14:14: error: unknown type name 'sig_t'
+   14 | void ROM_Gen(sig_t *currSig);
+      |              ^~~~~
+In file included from ../Core/Inc/signal.h:11,
+                 from ../Core/Src/signal.c:8:
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:342:17: note: in expansion of macro 'SR'
+  342 |   __IO uint32_t SR;          /*!< DAC status register,                                     Address offset: 0x34 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:478:17: note: in expansion of macro 'SR'
+  478 |   __IO uint32_t SR;               /*!< FLASH status register,                    Address offset: 0x10 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:520:17: note: in expansion of macro 'SR'
+  520 |   __IO uint32_t SR;         /*!< NAND Flash FIFO status and interrupt register,     Address offset: 0x84 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:576:17: note: in expansion of macro 'SR'
+  576 |   __IO uint32_t SR;          /*!< IWDG Status register,    Address offset: 0x0C */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:588:17: note: in expansion of macro 'SR'
+  588 |   __IO uint32_t SR;          /*!< LCD status register,               Address offset: 0x08 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:667:17: note: in expansion of macro 'SR'
+  667 |   __IO uint32_t SR;          /*!< QUADSPI Status register,                            Address offset: 0x08 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:803:17: note: in expansion of macro 'SR'
+  803 |   __IO uint32_t SR;          /*!< SAI block x status register,              Address offset: 0x18 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:846:17: note: in expansion of macro 'SR'
+  846 |   __IO uint32_t SR;          /*!< SPI Status register,                                 Address offset: 0x08 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:899:17: note: in expansion of macro 'SR'
+  899 |   __IO uint32_t SR;          /*!< TIM status register,                      Address offset: 0x10 */
+      |                 ^~
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:987:17: note: in expansion of macro 'SR'
+  987 |   __IO uint32_t SR;          /*!< WWDG Status register,        Address offset: 0x08 */
+      |                 ^~
+In file included from ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h:149,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h:29,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32l4xx_hal_conf.h:258,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Src/signal.c:11:
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:988:1: warning: no semicolon at end of struct or union
+  988 | } WWDG_TypeDef;
+      | ^
+In file included from ../Core/Inc/signal.h:11,
+                 from ../Core/Src/signal.c:8:
+../Core/Inc/globals.h:13:12: error: expected identifier or '(' before numeric constant
+   13 | #define SR 20000
+      |            ^~~~~
+../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h:997:17: note: in expansion of macro 'SR'
+  997 |   __IO uint32_t SR;  /*!< RNG status register,  Address offset: 0x04 */
+      |                 ^~
+In file included from ../Core/Src/dac.c:16:
+../Core/Inc/signal.h:13:12: error: unknown type name 'sig_t'
+   13 | void mkSig(sig_t *currSig);
+      |            ^~~~~
+../Core/Inc/signal.h:14:14: error: unknown type name 'sig_t'
+   14 | void ROM_Gen(sig_t *currSig);
+      |              ^~~~~
+../Core/Src/dac.c: In function 'dac_Task':
+../Core/Src/dac.c:36:2: error: unknown type name 'sig_t'
+   36 |  sig_t sigReq;
+      |  ^~~~~
+../Core/Src/dac.c:38:2: error: unknown type name 'sig_t'
+   38 |  sig_t signal_1;
+      |  ^~~~~
+../Core/Src/adc.c:24:8: error: unknown type name 'sig_t'
+   24 | extern sig_t newSig;
+      |        ^~~~~
+In file included from ../Core/Src/adc.c:15:
+../Core/Inc/globals.h:14:15: error: expected identifier or '(' before numeric constant
+   14 | #define todig 4096/3.3
+      |               ^~~~
+../Core/Src/adc.c:28:8: note: in expansion of macro 'todig'
+   28 | double todig = 4096/3.3;
+      |        ^~~~~
+../Core/Inc/globals.h:15:16: error: expected identifier or '(' before numeric constant
+   15 | #define toreal 3.3/4096
+      |                ^~~
+../Core/Src/adc.c:29:8: note: in expansion of macro 'toreal'
+   29 | double toreal = 3.3/4096;
+      |        ^~~~~~
+../Core/Src/adc.c: In function 'calc_sig':
+../Core/Src/adc.c:62:22: error: request for member 'max' in something not a structure or union
+   62 |  int VPP_dig = newSig.max - newSig.min;
+      |                      ^
+../Core/Src/adc.c:62:35: error: request for member 'min' in something not a structure or union
+   62 |  int VPP_dig = newSig.max - newSig.min;
+      |                                   ^
+../Core/Src/adc.c:70:9: error: request for member 'type' in something not a structure or union
+   70 |   newSig.type = RECT;
+      |         ^
+../Core/Src/dac.c:39:2: error: unknown type name 'sig_t'
+   39 |  sig_t signal_2;
+      |  ^~~~~
+../Core/Src/dac.c:50:13: error: request for member 'channel' in something not a structure or union
+   50 |    if(sigReq.channel)
+      |             ^
+../Core/Src/dac.c:53:13: error: request for member 'ROM' in something not a structure or union
+   53 |     signal_2.ROM = sig2_ROM;
+      |             ^
+../Core/Src/signal.c:25:12: error: unknown type name 'sig_t'
+   25 | void mkSig(sig_t *currSig)
+      |            ^~~~~
+../Core/Src/dac.c:55:5: warning: implicit declaration of function 'mkSig' [-Wimplicit-function-declaration]
+   55 |     mkSig(&signal_2);
+      |     ^~~~~
+../Core/Src/dac.c:61:13: error: request for member 'ROM' in something not a structure or union
+   61 |     signal_1.ROM = sig1_ROM;
+      |             ^
+../Core/Src/adc.c:70:17: error: 'RECT' undeclared (first use in this function)
+   70 |   newSig.type = RECT;
+      |                 ^~~~
+../Core/Src/adc.c:70:17: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/adc.c:72:9: error: request for member 'type' in something not a structure or union
+   72 |   newSig.type = TRI;
+      |         ^
+../Core/Src/signal.c:32:14: error: unknown type name 'sig_t'
+   32 | void ROM_Gen(sig_t *currSig)
+      |              ^~~~~
+../Core/Src/adc.c:72:17: error: 'TRI' undeclared (first use in this function); did you mean 'TPI'?
+   72 |   newSig.type = TRI;
+      |                 ^~~
+      |                 TPI
+../Core/Src/adc.c:74:9: error: request for member 'type' in something not a structure or union
+   74 |   newSig.type = SIN;
+      |         ^
+../Core/Src/adc.c:74:17: error: 'SIN' undeclared (first use in this function)
+   74 |   newSig.type = SIN;
+      |                 ^~~
+../Core/Src/adc.c:76:9: error: request for member 'type' in something not a structure or union
+   76 |   newSig.type = ARB;
+      |         ^
+../Core/Src/adc.c:76:17: error: 'ARB' undeclared (first use in this function)
+   76 |   newSig.type = ARB;
+      |                 ^~~
+../Core/Src/adc.c:79:11: error: request for member 'type' in something not a structure or union
+   79 |  if(newSig.type == ARB)
+      |           ^
+../Core/Src/adc.c:81:9: error: request for member 'freq' in something not a structure or union
+   81 |   newSig.freq = -1;
+      |         ^
+../Core/Src/adc.c:88:17: error: request for member 'max' in something not a structure or union
+   88 |    diff = newSig.max*toreal - (RRM[dist]*toreal);
+      |                 ^
+../Core/Src/adc.c:90:9: error: request for member 'freq' in something not a structure or union
+   90 |   newSig.freq = 1/((dist - mindx) * 2 * 0.0001);
+      |         ^
+../Core/Src/main.c:74:8: error: unknown type name 'sig_t'
+   74 | extern sig_t newSig;
+      |        ^~~~~
+In file included from ../Core/Src/main.c:25:
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:150:32: error: 'sig_t' undeclared (first use in this function)
+  150 |   mbx = xQueueCreate(1, sizeof(sig_t));
+      |                                ^~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:146:94: note: in definition of macro 'xQueueCreate'
+  146 |  #define xQueueCreate( uxQueueLength, uxItemSize ) xQueueGenericCreate( ( uxQueueLength ), ( uxItemSize ), ( queueQUEUE_TYPE_BASE ) )
+      |                                                                                              ^~~~~~~~~~
+../Core/Src/main.c:150:32: note: each undeclared identifier is reported only once for each function it appears in
+  150 |   mbx = xQueueCreate(1, sizeof(sig_t));
+      |                                ^~~~~
+../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:146:94: note: in definition of macro 'xQueueCreate'
+  146 |  #define xQueueCreate( uxQueueLength, uxItemSize ) xQueueGenericCreate( ( uxQueueLength ), ( uxItemSize ), ( queueQUEUE_TYPE_BASE ) )
+      |                                                                                              ^~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:581:14: error: request for member 'min' in something not a structure or union
+  581 |     if(newSig.min > RWM[idx])
+      |              ^
+../Core/Src/main.c:583:12: error: request for member 'min' in something not a structure or union
+  583 |      newSig.min = RWM[idx];
+      |            ^
+../Core/Src/main.c:586:14: error: request for member 'max' in something not a structure or union
+  586 |     if(newSig.max < RWM[idx])
+      |              ^
+../Core/Src/main.c:588:12: error: request for member 'max' in something not a structure or union
+  588 |      newSig.max = RWM[idx];
+      |            ^
+make: *** [Core/Src/subdir.mk:52: Core/Src/adc.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:52: Core/Src/signal.o] Error 1
+make: *** [Core/Src/subdir.mk:52: Core/Src/dac.o] Error 1
+make: *** [Core/Src/subdir.mk:52: Core/Src/main.o] Error 1
+../Core/Src/uart.c:32:1: error: unknown type name 'sig_t'
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      | ^~~~~
+../Core/Src/uart.c:32:20: warning: excess elements in scalar initializer
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      |                    ^
+../Core/Src/uart.c:32:20: note: (near initialization for 'newSig')
+../Core/Src/uart.c:32:23: warning: excess elements in scalar initializer
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      |                       ^
+../Core/Src/uart.c:32:23: note: (near initialization for 'newSig')
+../Core/Src/uart.c:32:26: warning: excess elements in scalar initializer
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      |                          ^
+../Core/Src/uart.c:32:26: note: (near initialization for 'newSig')
+../Core/Src/uart.c:32:29: warning: excess elements in scalar initializer
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      |                             ^
+../Core/Src/uart.c:32:29: note: (near initialization for 'newSig')
+../Core/Src/uart.c:32:32: warning: excess elements in scalar initializer
+   32 | sig_t newSig = {0, 0, 0, 0, 0, 0};
+      |                                ^
+../Core/Src/uart.c:32:32: note: (near initialization for 'newSig')
+../Core/Src/uart.c: In function 'HAL_UARTEx_RxEventCallback':
+../Core/Src/uart.c:87:11: error: request for member 'channel' in something not a structure or union
+   87 |     newSig.channel = (rxbuf - 48) - 1; //channel is a boolean variable for size, 0 for ch 1, 1 for ch 2. Subtract 48 to get int value from char
+      |           ^
+../Core/Src/uart.c: In function 'read_Task':
+../Core/Src/uart.c:122:11: error: request for member 'min' in something not a structure or union
+  122 |     newSig.min = 4096;
+      |           ^
+../Core/Src/uart.c:123:11: error: request for member 'max' in something not a structure or union
+  123 |     newSig.max = 0;
+      |           ^
+../Core/Src/uart.c:124:11: error: request for member 'freq' in something not a structure or union
+  124 |     newSig.freq = 1000;
+      |           ^
+../Core/Src/uart.c:132:20: error: request for member 'max' in something not a structure or union
+  132 |      maxV = (newSig.max * toreal);
+      |                    ^
+../Core/Src/uart.c:133:20: error: request for member 'min' in something not a structure or union
+  133 |      minV = (newSig.min * toreal);
+      |                    ^
+../Core/Src/uart.c:135:35: error: request for member 'type' in something not a structure or union
+  135 |      printf("Type: %c\n\r", newSig.type);
+      |                                   ^
+../Core/Src/uart.c:136:15: error: request for member 'freq' in something not a structure or union
+  136 |      if(newSig.freq == -1)
+      |               ^
+../Core/Src/uart.c:139:41: error: request for member 'freq' in something not a structure or union
+  139 |       printf("Frequency: %i\n\r", newSig.freq);
+      |                                         ^
+../Core/Src/uart.c:161:11: error: request for member 'width' in something not a structure or union
+  161 |     newSig.width = atoi(nbuf);
+      |           ^
+../Core/Src/uart.c:161:25: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+  161 |     newSig.width = atoi(nbuf);
+      |                         ^~~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/uart.c:7:
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:81:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   81 | int atoi (const char *__nptr);
+      |           ~~~~~~~~~~~~^~~~~~
+../Core/Src/uart.c:162:14: error: request for member 'width' in something not a structure or union
+  162 |     if(newSig.width < 800 && newSig.width > 0)
+      |              ^
+../Core/Src/uart.c:162:36: error: request for member 'width' in something not a structure or union
+  162 |     if(newSig.width < 800 && newSig.width > 0)
+      |                                    ^
+../Core/Src/uart.c:165:12: error: request for member 'width' in something not a structure or union
+  165 |      newSig.width = 0;
+      |            ^
+../Core/Src/uart.c:167:19: error: request for member 'width' in something not a structure or union
+  167 |     else if(newSig.width == 0)
+      |                   ^
+../Core/Src/uart.c:168:12: error: request for member 'width' in something not a structure or union
+  168 |      newSig.width = 2500;
+      |            ^
+../Core/Src/uart.c:170:12: error: request for member 'width' in something not a structure or union
+  170 |      newSig.width /= 800;
+      |            ^
+../Core/Src/uart.c:172:64: error: request for member 'channel' in something not a structure or union
+  172 |     printf("Outputting signal from channel %d...\n\n\r", newSig.channel + 1);
+      |                                                                ^
+make: *** [Core/Src/subdir.mk:52: Core/Src/uart.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+08:46:48 Build Failed. 70 errors, 8 warnings. (took 1s.970ms)
+
